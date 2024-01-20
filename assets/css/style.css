@@ -5,7 +5,7 @@
   }
   
   body {
-    background-color: yellow;
+    background-color: #ffffff;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
   }
   
   header {
-    background-color: #666;
+    background-color: #ffffff;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
   }
   
   main {
-    background-color: #fa7171;
+    background-color: #ffffff;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -37,42 +37,43 @@
     align-items: center;
     flex: 1 0 auto
   }
-  
-  .heading {
-    display: flex;
-    align-items: center;
-    font-size: 48px;
-    font-weight: 300;
-    width:100%
-  }
 
-  .intro {
+  .work {
     background-color: #ffffff;
-    display: flex;
     width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 16px;
   }
 
-  .section_1 {
-    background-color: aqua;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  footer {
-    background-color: #5be18a;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  .work div {
+    max-height: 700px;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
+  }
+
+  .work .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* horizontally centre in a flex column context */
+    justify-content: center; /* vertically centre */
+}
+
+  .work img {
+    max-width: 100%; /* To take up 100% of the width of the container */
+    max-height: 600px; /* To maintain the aspect ratio and be somewhat responsive */
+    object-fit: contain;
+    height: auto;
   }
 
   .pm {
     font-weight: bold;
     color: rgb(26, 180, 207);
+  }
+  
+  footer {
+    background-color: #353535;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }

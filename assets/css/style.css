@@ -5,7 +5,7 @@
   }
   
   body {
-    background-color: #ffffff;
+    background-color: #ffffff; /* Used to help structure the page */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
   }
   
   header {
-    background-color: #ffffff;
+    background-color: #ffffff; /* Used to help structure the page */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
   }
   
   main {
-    background-color: #ffffff;
+    background-color: #ffffff; /* Used to help structure the page */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -39,8 +39,8 @@
   }
 
   .work {
-    background-color: #ffffff;
-    width: 100%;
+    background-color: #ffffff; /* Used to help structure the page */
+    width: 90%;
   }
 
   .work div {
@@ -55,25 +55,41 @@
     flex-direction: column;
     align-items: center; /* horizontally centre in a flex column context */
     justify-content: center; /* vertically centre */
+    margin-bottom: 20px;
 }
 
   .work img {
     max-width: 100%; /* To take up 100% of the width of the container */
-    max-height: 600px; /* To maintain the aspect ratio and be somewhat responsive */
+    max-height: 500px; /* To maintain the aspect ratio and be somewhat responsive */
     object-fit: contain;
     height: auto;
   }
 
+  .work div > div {
+    padding: 10px; /* This is to add some padding around the text in the div */
+  }
+
+  /* This snippet is to highlight the words PM */
   .pm {
     font-weight: bold;
     color: rgb(26, 180, 207);
   }
+
+  .headshot-img {
+    max-width: 100%;
+    object-fit: contain;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
   
   footer {
-    background-color: #353535;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #353535;
+    color: #ffffff;
+    width: 100%;
+    height 30px;
   }

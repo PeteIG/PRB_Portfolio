@@ -28,6 +28,11 @@
     width: 100%;
     padding:15px 50px;
   }
+
+  .nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
   
   main {
     background-color: #ffffff; /* Used to help structure the page */
@@ -99,18 +104,23 @@
     padding: 10px;
   }
 
-  p {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  
   footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #353535;
     color: #ffffff;
     width: 100%;
-    padding-top:10px;
+    padding:10px 20px;
+    }
+
+    footer .col {
+      flex: 1;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .fa-linkedin {
+      color: #ffffff;
     }

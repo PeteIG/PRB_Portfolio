@@ -1,7 +1,7 @@
 # PRB Portfolio Website
 
 ## Introduction
-![PRB Portfolio Website Mockups] (/assets/images/Website Mockups.png)
+![PRB Portfolio Website Mockups](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/assets/images/Website%20Mockups.png)
 
 ### Project Goals
 This portfolio website is designed to showcase some examples of my skills and experience as Product Manager and Founder, highlighting my experience and accomplishments in lean product development, web development and AI applications. The site is designed to provide insights into my professional journey and technical capabilities.

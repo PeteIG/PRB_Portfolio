@@ -1,126 +1,145 @@
+/* Global Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Montserrat;
-  }
-  
-  body {
-    background-color: #ffffff; /* Used to help structure the page */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
-  header {
-    background-color: #ffffff; /* Used to help structure the page */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .navbar {
-    width: 100%;
-    padding:15px 50px;
-  }
-
-  .nav-link {
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  
-  main {
-    background-color: #ffffff; /* Used to help structure the page */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1 0 auto
-  }
-
-  section > h1 {
-    margin-top: 10vh
-  }
-
-  .work {
-    background-color: #ffffff; /* Used to help structure the page */
-    width: 90%;
-  }
-
-  .work div {
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .work .col-12 {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* horizontally centre in a flex column context */
-    justify-content: center; /* vertically centre */
-    margin-bottom: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
 }
 
-  .work img {
-    max-width: 100%; /* To take up 100% of the width of the container */
-    max-height: 500px; /* To maintain the aspect ratio and be somewhat responsive */
-    object-fit: contain;
-    height: auto;
-  }
+body {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
-  .work div > div {
-    padding: 10px; /* This is to add some padding around the text in the div */
-  }
+/* Header Styles */
+header {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  /* This snippet is to highlight the words PM */
-  .pm {
-    font-weight: bold;
-    color: rgb(26, 180, 207);
-  }
+.navbar {
+  width: 100%;
+  padding: 15px 50px;
+}
 
-  .col-12, .col-md-6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /*align-items: center; this has been commented out to centre the hero image on Bio page*/
-  }
+.nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
-  .headshot-img {
-    max-width: 100%;
-    object-fit: contain;
-    height: auto;
-  }
+.logo-img {
+  max-height: 60px;
+}
 
-  .contact-img {
-    max-width: 30%;
-    object-fit: contain;
-    height: auto;
-    padding: 10px;
-  }
+/* Main Content Styles */
+main {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto
+}
 
-  footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #353535;
-    color: #ffffff;
-    width: 100%;
-    padding:10px 20px;
-    }
+section>h1 {
+  margin-top: 10vh
+}
 
-    footer .col {
-      flex: 1;
-      text-align: center;
-      white-space: nowrap;
-    }
+.col-12,
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-    .fa-linkedin {
-      color: #ffffff;
-    }
+/* Work Section Styles */
+.work {
+  background-color: #ffffff;
+  width: 90%;
+}
+
+.work div {
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.work .col-12 {
+  display: flex;
+  flex-direction: column;
+  /* horizontally centred in a flex column */
+  align-items: center;
+  /* vertically centred */
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.work img {
+  /* To take up 100% of the width of the container */
+  max-width: 100%;
+  /* To maintain the aspect ratio and be somewhat responsive */
+  max-height: 500px;
+  object-fit: contain;
+  height: auto;
+}
+
+.work div>div {
+  padding: 10px;
+}
+
+/* Bio Main */
+.bio-main {
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Special Classes */
+
+.pm {
+  font-weight: bold;
+  color: rgb(2, 187, 219);
+}
+
+.headshot-img,
+.contact-img {
+  max-width: 100%;
+  object-fit: contain;
+  height: auto;
+}
+
+.contact-img {
+  max-width: 30%;
+  padding: 10px;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #353535;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+footer .col {
+  flex: 1;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.fa-linkedin {
+  color: #ffffff;
+}

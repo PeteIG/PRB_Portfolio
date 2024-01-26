@@ -8,11 +8,9 @@ The site can be accessed by this [link](https://peteig.github.io/PRB_Portfolio/)
 
 
 ## Usage
-Navigate through the website to view different projects I've worked on. Projects includes a detailed description of what I have worked on, challenges I have encountered and what I have learned. 
+Navigate through the website to view different projects I've worked on. Projects include a detailed description of what I have worked on, challenges I have encountered and what I have learned. 
 
-Only one of the example projects (MobilityHub) has been populated for the purposes of the Milestone project, as it was beyond the scope to create and populate each project page. Other projects will  be populated in due course, and as my Technical coding skills improve I will also add examples of future coding projects. 
-
-Other areas which are incomplete due to being outside of scope are the contact form which simulates a successful message, but is not hooked up to a database. So if you would like to get in touch, please use LinkedIn.
+Only one of the example projects (MobilityHub) has been populated for the Milestone project, as it was beyond the scope to create and populate each project page. Other projects will be populated in due course, and as my Technical coding skills improve I will also add examples of future coding projects. Other areas that are incomplete due to being outside of scope are the contact form which simulates a successful message but is not hooked up to a database. So if you would like to get in touch, please use LinkedIn.
 
 
 ## Contact
@@ -21,11 +19,11 @@ LinkedIn: https://www.linkedin.com/in/peter-bishop-ab083546
 ---
 
 ### Project Goals
-This portfolio website is designed to showcase some examples of my skills and experience as Product Manager and Founder, highlighting my experience and accomplishments in lean product development, web development and AI applications. The site is designed to provide insights into my professional journey and technical capabilities.
+This portfolio website is designed to showcase some examples of my skills and experience as a product manager and Founder, highlighting my experience and accomplishments in lean product development, web development and AI applications. The site is designed to provide insights into my professional journey and technical capabilities.
 
 
 ### User Goals
-The site has two main audiences, companies who may wish to work with me as collaborators, or recruit me.
+The site has two main audiences, companies who may wish to work with me as collaborators or recruit me.
 User goals are:
 - To learn about my skills
 - To learn about my experience
@@ -37,11 +35,11 @@ User goals are:
 The site is a great way to meet these goals because:
 - The project sections provide real-world examples of my skills and experience 
 - The Bio section provides a more detailed summary overview of my achievements
-- The Bio section adds credibility by sharing some of the well known organisations that I have worked with
+- The Bio section adds credibility by sharing some of the well-known organisations that I have worked with
 - The Bio section shares some of my personal hobbies and interests along with images 
 - It is a clean, modern design 
 - The site is responsive and easy to navigate
-- It has been developed from scratch as the first Milestone project for my Diploma in Full-stack web development and is therefore itself another real-world example of my skills/experience. 
+- It has been developed from scratch as the first Milestone project for my Diploma in Full-stack web development and is therefore another real-world example of my skills/experience. 
 
 
 ## User Stories
@@ -59,19 +57,19 @@ The site is a great way to meet these goals because:
 
 + #### Navigation
     - Positioned at the top of the page.
-    - Contains personal logo on the left side.
+Contains a personal logo on the left side.
     - Contains navigation links on the right side:
-        * HOME - leads to the home page where users can learn about me and see project/experience examples.
+HOME - this leads to the home page where users can learn about me and see project/experience examples.
         * BIO - leads to the biography page where users can read my bio.
-        * CONTACT - leads to the contact form page where users can fill out the form in order to get in touch with me.
-    - The links have animated hover effect.
+        * CONTACT - leads to the contact form page where users can fill out the form to get in touch with me.
+    - The links have an animated hover effect.
     - The navigation is clear and easy to understand for the user.
 
     - The navigation bar is responsive:
-        * On desktop: navigation bar includes the logo and the main navigation links.
+On the desktop: the navigation bar includes the logo and the main navigation links.
         * On mobile devices: 
             - navigation bar with the logo on the left, and a hamburger menu implemented on the right side of the navigation bar.
-            - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
+            - When the hamburger menu is clicked, there is a dropdown menu with the links in the same order.
 
 
 + ### Home Page
@@ -102,7 +100,7 @@ The site is a great way to meet these goals because:
     - It offers insights into:
 
         * The diversity and scope of completed projects.
-        * Technical skills and tools worked with in these projects.
+        * Technical skills and tools worked with, in these projects.
         * Clickable links to read more about each project.
 
 
@@ -111,7 +109,7 @@ The site is a great way to meet these goals because:
     - Highlights my professional experiences and roles.
     - Highlights some key tools and technologies used.
     - Highlights key achievements.
-    - Showcases well known organisations worked with, or funded by.
+    - Showcases well-known organisations worked with, or funded by.
     - Provides brief personal interest statement. 
 
     ![Experience Section](documentation/)
@@ -145,7 +143,7 @@ The site is a great way to meet these goals because:
 + #### Footer
 
     - Contains copyright information.
-    - Contains links to professional network.
+    - Contains links to a professional network.
 
 ---
 
@@ -235,9 +233,7 @@ In your IDE Terminal, type the following command:
 
 - If you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/PeteIG/PRB_Portfolio), which will start the Gitpod workspace for you.
 
----
-
-## Acknowledgements
+### Acknowledgments
 In creating this website I relied heavily upon: 
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova): My CI mentor for her advice, encouragement and support
@@ -245,14 +241,14 @@ In creating this website I relied heavily upon:
 - Documentation at https://getbootstrap.com/
 - Documentation at https://fontawesome.com/
 - Troubleshooting at https://stackoverflow.com/
-- For the Mockup generator on various screen sizes I used https://techsini.com/multi-mockup/index.php  
+- For the Mockup generator on various screen-sizes I used https://techsini.com/multi-mockup/index.php  
 
 ---
 
 ## Bugs
-*I had difficulty making the navbar sticky. The sticky-top class should have worked but did not. I could not find where in the code bootstrap or css was overriding it. *Resolved: I found the answer in stackoverflow chat explaining that sticky-top will not work unless it is applied to the outermost element (which it wasn't), In this case the class needed to be applied to the header, and not the nav element. This change has been applied.
+*I had difficulty making the navbar sticky. The sticky-top class should have worked but did not. I could not find where in the code Bootstrap or CSS was overriding it. *Resolved: I found the answer in Stackoverflow chat explaining that sticky-top will not work unless it is applied to the outermost element (which it wasn't), In this case, the class needed to be applied to the header, and not the nav element. This change has been applied.
 
 *I have not been able to centre the image on the contact form success page.
 
-*There was a scalling issue with the work examples on the home page where, at medium screen sizes, the top row was splitting into two vertically stacked images while the second row remained horizontally stacked. The issue had been caused by applying the <a> tag to the outermost div rather than to the div containing the image. 
+*There was a scaling issue with the work examples on the home page where, at medium screen sizes, the top row was splitting into two vertically stacked images while the second row remained horizontally stacked. The issue had been caused by applying the 'a' tag to the outermost div rather than to the div containing the image. 
 

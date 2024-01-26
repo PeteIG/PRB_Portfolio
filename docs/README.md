@@ -10,7 +10,7 @@ The site can be accessed by this [link](https://peteig.github.io/PRB_Portfolio/)
 ## Usage
 Navigate through the website to view different projects I've worked on. Projects includes a detailed description of what I have worked on, challenges I have encountered and what I have learned. 
 
-Only one of the example projects (MobilityHub) has been populated for the purposes of the Milestone project, as it was beyond the scope to create and populate each project page. Other projects will  be populated in due course, and as my Technical coding skills improve I will also add examples of future coding projects. 
+Other projects will  be added in due course, and as my Technical coding skills improve I will also add examples of future coding projects. 
 
 Other areas which are incomplete due to being outside of scope are the contact form which simulates a successful message, but is not hooked up to a database. So if you would like to get in touch, please use LinkedIn.
 

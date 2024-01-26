@@ -193,25 +193,25 @@ Wireframes were created using Webflow, a no-code tool that I am very comfortable
 
 #### Desktop
 
-- [Home Page Top. Desktop Screen](docs/wf_home1.png)
-- [Home Page Middle. Desktop Screen](docs/wf_home2.png)
-- [Home Page Bottom. Desktop Screen](docs/wf_home3.png)
-- [Bio Page Top. Desktop Screen](docs/wf_bio1.png)
-- [Bio Page Middle. Desktop Screen](docs/wf_bio2.png)
-- [Bio Page Bottom. Desktop Screen](docs/wf_bio3.png)
-- [Contact Page. Desktop Screen](docs/wf_contact1.png)
+- [Home Page Top. Desktop Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_home1.png)
+- [Home Page Middle. Desktop Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_home2.png)
+- [Home Page Bottom. Desktop Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_home3.png)
+- [Bio Page Top. Desktop Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_bio1.png)
+- [Bio Page Middle. Desktop Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_bio2.png)
+- [Bio Page Bottom. Desktop Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_bio3.png)
+- [Contact Page. Desktop Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_contact1.png)
 
 #### Tablets
 
-- [Home Page. Tablet Screen](docs/wf_home_tab1.png)
-- [Bio Page. Tablet Screen](docs/wf_bio_tab1.png)
-- [Contact Page. Tablet Screen](docs/wf_contact_tab1.png)
+- [Home Page. Tablet Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_home_tab1.png)
+- [Bio Page. Tablet Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_bio_tab1.png)
+- [Contact Page. Tablet Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_contact_tab1.png)
 
 
 #### Mobile devices
-- [Home Page. Mobile Screen](docs/wf_home_mob1.png)
-- [Bio Page. Mobile Screen](docs/wf_bio_mob1.png)
-- [Contact Page. Mobile Screen](docs/wf_contact_mob1.png)
+- [Home Page. Mobile Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_home_mob1.png)
+- [Bio Page. Mobile Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_bio_mob1.png)
+- [Contact Page. Mobile Screen](https://raw.githubusercontent.com/PeteIG/PRB_Portfolio/main/docs/wf_contact_mob1.png)
 
 ---
 

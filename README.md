@@ -218,7 +218,8 @@ Wireframes were created using Webflow, a no-code tool that I am very comfortable
 ### Deployment to GitHub Pages
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/PeteIG/PRB_Portfolio), navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/PeteIG/PRB_Portfolio), navigate to the Settings tab
+  - Select 'pages' in the right hand sidebar 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 

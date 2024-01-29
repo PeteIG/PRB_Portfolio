@@ -221,6 +221,10 @@ Wireframes were created using Webflow, a no-code tool that I am very comfortable
 
 ---
 
+## Testing
+
+Please refer to [Testing](TESTING.md) for all testing-related documentation.
+
 ## Deployment
 
 ### Deployment to GitHub Pages

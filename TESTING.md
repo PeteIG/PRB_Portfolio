@@ -79,7 +79,8 @@ No warnings or errors were shown when passing through the official W3C validator
 ![Bio Page HTML Validator](docs/biopagehtml.png)
 
 #### Contact Page
-An unexplained error is occuring when passing through the official W3C validator. This is detailed in the 'bugs' section below
+No warnings or errors were shown when passing through the official W3C validator.
+![Contact Page HTML Validator](docs/contacthtml.png)
 
 #### Project Page
 No warnings or errors were shown when passing through the official W3C validator.
@@ -120,13 +121,7 @@ Using lighthouse in devtools I confirmed that the website is performing well, ac
 
     + Resolved: The issue had been caused by applying the 'a' tag to the outermost div rather than to the div containing the image. This fix has been made and the bug is resolved.
 
-### Unsolved Bugs
-
-* The official W3C validator flagged some issues in my form aria labels where I was mistakenly using aria-describedby. As shown in the devtools image below this label has been changed to an aria-label, changes were pushed to GitHub and the site was redeployed, yet the W3C validator continues to identify the same errors. 
-
-![Aria Error](docs/aria_error.png)
-
-![Aria Error Fix](docs/aria_error_fix.png)
+There are no known unsolved bugs.
 
 ---
 

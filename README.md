@@ -10,7 +10,7 @@ The site can be accessed by this [link](https://peteig.github.io/PRB_Portfolio/)
 ## Usage
 Navigate through the website to view different projects I've worked on. Projects include a detailed description of what I have worked on, challenges I have encountered and what I have learned. 
 
-Only one of the example projects (MobilityHub) has been populated for the Milestone project, as it was beyond the scope to create and populate each project page. Other projects will be populated in due course, and as my Technical coding skills improve I will also add examples of future coding projects. Other areas that are incomplete due to being outside of scope are the contact form which simulates a successful message but is not hooked up to a database. So if you would like to get in touch, please use LinkedIn.
+Other projects will be populated in due course, and as my Technical coding skills improve I will also add examples of future coding projects. Areas that are incomplete due to being outside of scope are the contact form which simulates a successful message but is not hooked up to a database. So if you would like to get in touch, please use LinkedIn.
 
 
 ## Contact
@@ -44,11 +44,10 @@ The site is a great way to meet these goals because:
 
 ## User Stories
 1.	As a tech recruiter, I want to easily understand Pete's core competencies and technical skills, so that I can quickly assess if he fits our company's needs.
-•	Met by: Clear categorisation of skills and competencies in the homepage summary, specific project examples, and bio section.
+
 2.	As a startup founder, I want to view examples of Pete's previous projects, including his role and contributions, to evaluate his experience and problem-solving abilities.
-•	Met by: A 'Projects' section showcasing detailed case studies of key projects worked on.
+
 3.	As a potential collaborator, I need to easily find Pete's contact information, so that I can reach out to him for potential partnerships or collaborative projects.
-•	Met by: A visible 'Contact' section with more than one contact option, including a form, and LinkedIn.
 
 ---
 
@@ -64,12 +63,14 @@ HOME - this leads to the home page where users can learn about me and see projec
         * CONTACT - leads to the contact form page where users can fill out the form to get in touch with me.
     - The links have an animated hover effect.
     - The navigation is clear and easy to understand for the user.
+    ![NavBar desktop](docs/navbar_desktop.png)
 
     - The navigation bar is responsive:
 On the desktop: the navigation bar includes the logo and the main navigation links.
         * On mobile devices: 
             - navigation bar with the logo on the left, and a hamburger menu implemented on the right side of the navigation bar.
             - When the hamburger menu is clicked, there is a dropdown menu with the links in the same order.
+    ![NavBar mobile](docs/navbar_mobile_open.png)
 
 
 + ### Home Page
@@ -81,7 +82,7 @@ On the desktop: the navigation bar includes the logo and the main navigation lin
         * Highlights of professional experiences and accomplishments.
         * An invitation to connect via LinkedIn for collaborations.
 
-    ![Home Page](documentation/)
+    ![Home Page](docs/homepage.png)
 
 
 + #### Introduction Section
@@ -92,6 +93,8 @@ On the desktop: the navigation bar includes the logo and the main navigation lin
         * An overview of my professional journey and core competencies.
         * A visual representation of skills and technologies I am proficient in.
         * A direct link to the detailed CV (LinkedIn) and professional background.
+    
+    ![Home Introduction](docs/home_intro.png)
 
 
 + #### Portfolio Section
@@ -103,6 +106,8 @@ On the desktop: the navigation bar includes the logo and the main navigation lin
         * Technical skills and tools worked with, in these projects.
         * Clickable links to read more about each project.
 
+![Home Portfolio](docs/home_projects.png)
+
 
 + ### Bio Page
 
@@ -112,7 +117,7 @@ On the desktop: the navigation bar includes the logo and the main navigation lin
     - Showcases well-known organisations worked with, or funded by.
     - Provides brief personal interest statement. 
 
-    ![Experience Section](documentation/)
+    ![Experience Section](docs/biopage.png)
 
 
 + ### Contact Page
@@ -123,7 +128,7 @@ On the desktop: the navigation bar includes the logo and the main navigation lin
         * A simple, user-friendly contact form.
         * A note on the typical response time.
 
-    ![Contact Section](documentation/)
+    ![Contact Section](docs/contactpage.png)
 
 
 + ### Detailed Project Page
@@ -137,7 +142,7 @@ On the desktop: the navigation bar includes the logo and the main navigation lin
 
     - These pages provide a deeper understanding of my role and contributions to each project.
 
-    ![Detailed Project Page](documentation/)
+    ![Detailed Project Page](docs/projectpage.png)
 
 
 + #### Footer
@@ -145,13 +150,16 @@ On the desktop: the navigation bar includes the logo and the main navigation lin
     - Contains copyright information.
     - Contains links to a professional network.
 
+![Footer](docs/footer.png)
+
 ---
 
 ## Technologies Utilised
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Served as the fundamental building block for the site's structure.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Employed for styling and designing the site's layout.
-- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox): Utilized for symmetrically organizing elements across various pages.
+- [Bootstrap](https://getbootstrap.com/): Enabled fast, responsive design with a suite of ready-to-use components and utilities for layout and styling.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox): Utilised for symmetrically organising elements across various pages.
 - [Webflow](https://webflow.com/): Leveraged for creating initial wireframes of the website.
 - [Gitpod](https://gitpod.io/): Chosen as the primary coding and editing environment.
 - [Git](https://git-scm.com/): Utilized for version control management of the website's codebase.
@@ -164,7 +172,7 @@ On the desktop: the navigation bar includes the logo and the main navigation lin
 
 ### Color Scheme
 
-![Colour Palette](documentation/)
+![Colour Palette](docs/website_colors.png)
 
 - The primary colour palette of my website comprises shades that align closely with my company's branding. This choice ensures a cohesive visual experience and guarantees that the images and content on the site seamlessly integrate with these colours.
 
@@ -174,7 +182,7 @@ On the desktop: the navigation bar includes the logo and the main navigation lin
 
 ### Typography
 
-![Main Font](documentation/)
+![Main Font](docs/montserrat.png)
 
 - For the main body of text, I've chosen a clean and modern sans-serif font that enhances readability and maintains a professional look throughout the site. This font was selected for its clarity and ease of reading, which is crucial for effectively communicating complex technical information.
 
@@ -234,22 +242,26 @@ In your IDE Terminal, type the following command:
 
 - If you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/PeteIG/PRB_Portfolio), which will start the Gitpod workspace for you.
 
-### Acknowledgments
+---
+
+### Credits
 In creating this website I relied heavily upon: 
-- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help
-- [Iuliia Konovalova](https://github.com/IuliiaKonovalova): My CI mentor for her advice, encouragement and support
 - The assets of my own company [Agile Kinetic](https://www.agilekinetic.com/): Particularly images to showcase work
 - Documentation at https://getbootstrap.com/
 - Documentation at https://fontawesome.com/
 - Troubleshooting at https://stackoverflow.com/
-- For the Mockup generator on various screen-sizes I used https://techsini.com/multi-mockup/index.php  
+- For the Mockup generator on various screen sizes I used https://techsini.com/multi-mockup/index.php 
+- [EzGif](https://ezgif.com) was used to resize GIF images
+- [Responsive Viewer](https://chromewebstore.google.com/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb) Chrome extension was used to visualise pages on various screen sizes
+- [GoFullPage](https://chromewebstore.google.com/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl) Chrome extension was used to capture full page screenshots of pages
 
 ---
 
-## Bugs
-*I had difficulty making the navbar sticky. The sticky-top class should have worked but did not. I could not find where in the code Bootstrap or CSS was overriding it. *Resolved: I found the answer in Stackoverflow chat explaining that sticky-top will not work unless it is applied to the outermost element (which it wasn't), In this case, the class needed to be applied to the header, and not the nav element. This change has been applied.
+### Acknowledgments
+  
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova): My CI mentor for her advice, encouragement and support
+- [GitHub](https://github.com/): Has made it possible to store the code
+- [GitHub Pages](https://pages.github.com/) Have made it possible to host and deploy the site directly from my GitHub repository
 
-*I have not been able to centre the image on the contact form success page.
-
-*There was a scaling issue with the work examples on the home page where, at medium screen sizes, the top row was splitting into two vertically stacked images while the second row remained horizontally stacked. The issue had been caused by applying the 'a' tag to the outermost div rather than to the div containing the image. 
-
+---
